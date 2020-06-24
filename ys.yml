@@ -1,24 +1,4 @@
-"共 {num} 条":
-  zh-cn: 共 {num} 条
-  zh-tw: 共 {num} 條
-  en-us: "{num} entries in total"
-确定删除吗？:
-  zh-cn: 确定删除吗？
-  zh-tw: 確定刪除嗎？
-  en-us: Are you sure you want to delete it?
-立即删除:
-  zh-cn: 立即删除
-  zh-tw: 立即刪除
-  en-us: Delete
-取消:
-  zh-cn: 取消
-  zh-tw: 取消
-  en-us: Cancel
-删除:
-  zh-cn: 删除
-  zh-tw: 刪除
-  en-us: Delete
-确定:
-  zh-cn: 确定
-  zh-tw: 確定
-  en-us: OK
+total: "{num} entries in total"
+delete: 'delete'
+ok: 'ok'
+cancel: 'cancel'
