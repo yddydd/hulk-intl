@@ -1,0 +1,9 @@
+stages:
+  - test
+
+test:
+  stage: test
+  only:
+    - master
+  script:
+    - echo "hello"
