@@ -1,3 +1,3 @@
 files:
-  - source: '*.yml'
+  - source: ys.yml
     translation: /folder/%language%
