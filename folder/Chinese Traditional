@@ -1,7 +1,9 @@
 ---
-total: '共 {num} 条'
-delete: '刪除'
-ok: '确定'
-cancel: '取消'
-事件名格式不符合要求，请重新录入: '事件名格式不符合要求 請重新錄入'
-数据采集需求文档: '資料獲取需求文檔'
+stages:
+  - test
+test:
+  stage: test
+  only:
+    - master
+  script:
+    - echo "hello"
