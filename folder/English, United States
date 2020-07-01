@@ -1,7 +1,9 @@
 ---
-total: '{num} entries in total'
-delete: 'delete'
-ok: 'ok'
-cancel: 'cancel'
-事件名格式不符合要求，请重新录入: 'The event name format doesn''t meet our requirement. Please re-enter.'
-数据采集需求文档: 'Event Design File'
+stages:
+  - test
+test:
+  stage: test
+  only:
+    - master
+  script:
+    - echo "hello"
